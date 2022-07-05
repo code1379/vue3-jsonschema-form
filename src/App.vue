@@ -1,6 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" :age="12" />
+  <!-- 这里不传递 age 控制台不会报错，只会在组件下面显示波浪线，鼠标移动上去才有错误 -->
+  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" :age="18" />
   <p>{{ state.firstName }} - {{ lastNameRef }}</p>
   <p>fullNameRef: {{ fullNameRef }}</p>
 </template>

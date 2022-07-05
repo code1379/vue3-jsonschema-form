@@ -22,3 +22,5 @@
      <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
    </template>
    ```
+
+3. setup 语法糖 jsx 不会对 props 的 required 进行验证

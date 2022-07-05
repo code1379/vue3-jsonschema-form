@@ -1,5 +1,6 @@
 import { defineComponent, render, h, reactive, ref } from 'vue'
 import HelloWorld from '@/components/HelloWorld.vue'
+import BasicSetup from '@/components/BasicSetup.vue'
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const logo = require('./assets/logo.png')
@@ -42,6 +43,7 @@ const App = defineComponent({
           <p>number: {number}</p>
           {/* <HelloWorld age={12} /> */}
           {renderHelloWorld(123)}
+          <BasicSetup />
         </div>
       )
     }

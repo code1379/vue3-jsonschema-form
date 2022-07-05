@@ -21,6 +21,10 @@ export default defineComponent({
   components: {
     HelloWorld
   },
+  mounted() {
+    // setup return 的变量会直接绑定到 this 上
+    console.log('mounted', this)
+  },
   // 跟 create 一样，只会执行一次
   setup(props, { slots, attrs, emit }) {
     // let name = 'Jokcy'
